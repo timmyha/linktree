@@ -1,7 +1,7 @@
 <script lang="ts">
   const links = [
     {name: 'portfolio', url: 'https://timmyha.co', icon: 'las la-landmark'},
-    {name: 'twitter', url: 'https://twitter.com/timmyha', icon: 'lab la-twitter'},
+    {name: 'twitter', url: 'https://twitter.com/tmthyha', icon: 'lab la-twitter'},
     {name: 'my blog', url: 'https://blog.timmyha.co', icon: 'las la-rss'},
     {name: 'github', url: 'https://github.com/timmyha', icon: 'lab la-github'},
     {name: 'instagram', url: 'https://instagram.com/fordf150fansonly', icon: 'lab la-instagram'},
@@ -9,11 +9,11 @@
     {name: 'my dot files', url: 'https://github.com/timmyha/dots', icon: 'las la-ellipsis-h'},
   ]
 
-  const goToUrl = (link) => window.location.href = link
+  const goToUrl = (link: string) => window.location.href = link
 </script>
 
 <main>
-  <h1>tmthyha</h1>
+  <h1>timmyha</h1>
     {#each links as link (link.name)}
     <div  class="button">
       <button class="button--click "on:click={() => goToUrl(link.url)}>{link.name}</button>
