@@ -1,8 +1,8 @@
 <script lang="ts">
   const links = [
-    {name: 'portfolio', url: 'https://timmyha.co', icon: 'las la-landmark'},
+    {name: 'portfolio', url: 'https://timmy.gg', icon: 'las la-landmark'},
     {name: 'twitter', url: 'https://twitter.com/tmthyha', icon: 'lab la-twitter'},
-    {name: 'my blog', url: 'https://blog.timmyha.co', icon: 'las la-rss'},
+    {name: 'my blog', url: 'https://blog.timmy.gg', icon: 'las la-rss'},
     {name: 'github', url: 'https://github.com/timmyha', icon: 'lab la-github'},
     {name: 'instagram', url: 'https://instagram.com/fordf150fansonly', icon: 'lab la-instagram'},
     {name: 'film logs', url: 'https://letterboxd.com/timmyha', icon: 'las la-film'},
@@ -25,6 +25,7 @@
 <style>
   h1 {
     margin: auto;
+    font-size: 5rem;
   }
   main {
     margin: auto;
@@ -34,21 +35,23 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: left;
+    background: none;
   }
   .button--icon {
     visibility: hidden;
     padding: 2px 5px 2px 5px;
+    font-size: 1.5rem;
   }
   .button--click {
     width: fit-content;
     padding: 2px 10px 2px 10px;
-    border: 1px solid #213547;
+    border: none;
     border-radius: 0;
     margin-bottom: 5px;
   }
   .button--click:hover {
-    background-color: #213547;
-    color: white;
+    background-color: pink;
+    color: #111;
     cursor: pointer;
   }
   .button--click:hover + .button--icon {
