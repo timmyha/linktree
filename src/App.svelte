@@ -36,6 +36,7 @@
     flex-direction: row-reverse;
     justify-content: left;
     background: none;
+    margin-bottom: 15px;
   }
   .button--icon {
     visibility: hidden;
